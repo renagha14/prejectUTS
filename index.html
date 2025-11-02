@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PasarKucing - Jual Beli Kucing Lucu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <div class="logo">PK</div>
+      <div>
+        <div class="brand-name">PasarKucing</div>
+        <div class="brand-subtitle">Jual Beli Kucing Online</div>
+      </div>
+    </div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#daftar">List</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#upload">Tambah Iklan</a>
+      <a href="#rekomendasi">AI Rekomendasi</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <h1>Temukan Kucing Impianmu di PasarKucing</h1>
+      <p>Dapatkan berbagai ras kucing dari penjual terpercaya di seluruh Indonesia!</p>
+      <div class="searchbar">
+        <input type="search" id="cariInput" placeholder="Cari nama kucing, ras, atau harga...">
+        <select id="kategoriSelect">
+          <option value="">Semua Kategori</option>
+          <option value="Persia">Persia</option>
+          <option value="Anggora">Anggora</option>
+          <option value="Maine Coon">Maine Coon</option>
+          <option value="Kampung">Kampung</option>
+        </select>
+        <button class="btn" id="cariBtn">Cari</button>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img src="kucing 4.jpg" alt="kucing lucu">
+    </div>
+  </section>
+
+  <section class="container" id="daftar">
+    <h2>Daftar Kucing</h2>
+    <div id="listGrid" class="grid">
+
+      <div class="card" data-nama="Snowy" data-kategori="Anggora" data-harga="Rp 2.500.000" data-deskripsi="Kucing lucu dan jinak, cocok untuk anak-anak." data-img="Anggora.jpg">
+        <img src="Anggora.jpg" alt="Anggora">
+        <h3>Snowy</h3>
+        <p>Ras: Anggora</p>
+        <p>Harga: Rp 2.500.000</p>
+      </div>
+
+      <div class="card" data-nama="Milo" data-kategori="Persia" data-harga="Rp 3.000.000" data-deskripsi="Berbulu tebal, manja, dan sangat bersih." data-img="persia.jpg">
+        <img src="persia.jpg" alt="Persia">
+        <h3>Milo</h3>
+        <p>Ras: Persia</p>
+        <p>Harga: Rp 3.000.000</p>
+      </div>
+
+      <div class="card" data-nama="Luna" data-kategori="Maine Coon" data-harga="Rp 4.200.000" data-deskripsi="Kucing besar dan ramah, sangat aktif bermain." data-img="Maine Coon.webp">
+        <img src="Maine Coon.webp" alt="Maine Coon">
+        <h3>Luna</h3>
+        <p>Ras: Maine Coon</p>
+        <p>Harga: Rp 4.200.000</p>
+      </div>
+
+      <div class="card" data-nama="Tom" data-kategori="Kampung" data-harga="Rp 300.000" data-deskripsi="Kucing kampung yang sehat dan lincah." data-img="kucing kampung.jpg">
+        <img src="kucing kampung.jpg" alt="Kucing Kampung">
+        <h3>Tom</h3>
+        <p>Ras: Kampung</p>
+        <p>Harga: Rp 300.000</p>
+      </div>
+
+      <div class="card" data-nama="Neko" data-kategori="Scottish Fold" data-harga="Rp 3.500.000" data-deskripsi="Kucing dengan telinga lipat, berwajah imut." data-img="Scottish Fold.jpg">
+        <img src="Scottish Fold.jpg" alt="Scottish Fold">
+        <h3>Neko</h3>
+        <p>Ras: Scottish Fold</p>
+        <p>Harga: Rp 3.500.000</p>
+      </div>
+
+      <div class="card" data-nama="Sphinx" data-kategori="Sphynx" data-harga="Rp 6.000.000" data-deskripsi="Kucing tanpa bulu yang unik dan penuh kasih." data-img="Sphynx.jpg">
+        <img src="Sphynx.jpg" alt="Sphynx">
+        <h3>Sphinx</h3>
+        <p>Ras: Sphynx</p>
+        <p>Harga: Rp 6.000.000</p>
+      </div>
+
+      <div class="card" data-nama="Choco" data-kategori="British Shorthair" data-harga="Rp 4.000.000" data-deskripsi="Kucing bulat dan tenang, cocok untuk rumah yang damai." data-img="choco.jpg">
+        <img src="choco.jpg" alt="British Shorthair">
+        <h3>Choco</h3>
+        <p>Ras: British Shorthair</p>
+        <p>Harga: Rp 4.000.000</p>
+      </div>
+
+      <div class="card" data-nama="Oreo" data-kategori="Ragdoll" data-harga="Rp 5.000.000" data-deskripsi="Suka digendong dan sangat lembut seperti boneka." data-img="oreo.jpg">
+        <img src="oreo.jpg" alt="Ragdoll">
+        <h3>Oreo</h3>
+        <p>Ras: Ragdoll</p>
+        <p>Harga: Rp 5.000.000</p>
+      </div>
+
+      <div class="card" data-nama="Simba" data-kategori="Bengal" data-harga="Rp 5.500.000" data-deskripsi="Bulu bermotif tutul seperti macan kecil yang energik." data-img="simba.jpg">
+        <img src="simba.jpg" alt="Bengal">
+        <h3>Simba</h3>
+        <p>Ras: Bengal</p>
+        <p>Harga: Rp 5.500.000</p>
+      </div>
+
+      <div class="card" data-nama="Mimi" data-kategori="Exotic Shorthair" data-harga="Rp 3.200.000" data-deskripsi="Wajah datar dan ekspresi lucu, perawatan mudah." data-img="mimi.jpg">
+        <img src="mimi.jpg" alt="Exotic Shorthair">
+        <h3>Mimi</h3>
+        <p>Ras: Exotic Shorthair</p>
+        <p>Harga: Rp 3.200.000</p>
+      </div>
+
+      <div class="card" data-nama="Leo" data-kategori="Abyssinian" data-harga="Rp 4.500.000" data-deskripsi="Lincah dan cerdas, suka bermain dan menjelajah." data-img="leo.jpg">
+        <img src="leo.jpg" alt="Abyssinian">
+        <h3>Leo</h3>
+        <p>Ras: Abyssinian</p>
+        <p>Harga: Rp 4.500.000</p>
+      </div>
+
+      <div class="card" data-nama="Coco" data-kategori="Birman" data-harga="Rp 4.000.000" data-deskripsi="Ramah, bulu lembut, dan sangat penyayang." data-img="coco.jpg">
+        <img src="coco.jpg" alt="Birman">
+        <h3>Coco</h3>
+        <p>Ras: Birman</p>
+        <p>Harga: Rp 4.000.000</p>
+      </div>
+
+      <div class="card" data-nama="Loki" data-kategori="Siamese" data-harga="Rp 2.800.000" data-deskripsi="Cerdas dan suka bicara, sangat setia pada pemiliknya." data-img="loki.jpg">
+        <img src="loki.jpg" alt="Siamese">
+        <h3>Loki</h3>
+        <p>Ras: Siamese</p>
+        <p>Harga: Rp 2.800.000</p>
+      </div>
+
+      <div class="card" data-nama="Bella" data-kategori="Norwegian Forest" data-harga="Rp 5.800.000" data-deskripsi="Kucing besar berbulu panjang, kuat dan tangguh." data-img="bella.jpg">
+        <img src="bella.jpg" alt="Norwegian Forest">
+        <h3>Bella</h3>
+        <p>Ras: Norwegian Forest</p>
+        <p>Harga: Rp 5.800.000</p>
+      </div>
+
+      <div class="card" data-nama="Zara" data-kategori="Devon Rex" data-harga="Rp 3.800.000" data-deskripsi="Bertelinga besar dan bulu keriting halus, aktif dan lucu." data-img="zara.jpg">
+        <img src="zara.jpg" alt="Devon Rex">
+        <h3>Zara</h3>
+        <p>Ras: Devon Rex</p>
+        <p>Harga: Rp 3.800.000</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="galeri">
+    <h2>Galeri Kucing</h2>
+    <div class="gallery-grid">
+      <img src="Anggora.jpg" alt="Kucing 1">
+      <img src="kucing kampung.jpg" alt="Kucing 2">
+      <img src="Maine Coon.webp" alt="Kucing 3">
+      <img src="persia.jpg" alt="Kucing 4">
+      <img src="Scottish Fold.jpg" alt="Kucing 5">
+      <img src="Sphynx.jpg" alt="Kucing 6">
+      <img src="simba.jpg" alt="Kucing 7">
+      <img src="choco.jpg" alt="Kucing 8">
+      <img src="oreo.jpg" alt="Kucing 9">
+      <img src="loki.jpg" alt="Kucing 10">
+    </div>
+  </section>
+
+  <section class="container" id="upload">
+    <h2>Tambah Iklan Kucing Baru</h2>
+    <form id="uploadForm">
+      <input type="text" name="nama" placeholder="Nama Kucing" required>
+      <input type="text" name="kategori" placeholder="Kategori (misal: Persia)" required>
+      <input type="number" name="harga" placeholder="Harga (Rp)" required>
+      <textarea name="deskripsi" placeholder="Deskripsi singkat" required></textarea>
+      <input type="file" id="gambarInput" accept="image/*">
+      <button type="submit" class="btn">Tambahkan</button>
+    </form>
+  </section>
+
+  <section class="container" id="rekomendasi">
+    <h2>Rekomendasi Kucing untuk Kamu 🧠</h2>
+    <p>Jawab pertanyaan di bawah ini untuk mendapatkan saran jenis kucing yang cocok!</p>
+    <label>Pilih anggaran kamu:</label>
+    <select id="budget">
+      <option value="">-- Pilih --</option>
+      <option value="murah">Murah (di bawah 500rb)</option>
+      <option value="sedang">Sedang (500rb - 2jt)</option>
+      <option value="mahal">Mahal (di atas 2jt)</option>
+    </select>
+    <label>Pilih jenis perawatan:</label>
+    <select id="perawatan">
+      <option value="">-- Pilih --</option>
+      <option value="mudah">Mudah</option>
+      <option value="sedang">Sedang</option>
+      <option value="sulit">Sulit</option>
+    </select>
+    <button id="btnRekomendasi" class="btn">Tampilkan Rekomendasi</button>
+    <div id="hasilRekomendasi" style="margin-top:15px; font-weight:bold;"></div>
+    <div id="gambarRekomendasi" style="margin-top:10px;"></div>
+  </section>
+
+  <div class="modal" id="modal">
+    <div class="isi-modal">
+      <img id="modalImg" src="" alt="Foto kucing">
+      <div class="modal-info">
+        <h3 id="modalNama"></h3>
+        <div id="modalKategori" class="modal-kategori"></div>
+        <div id="modalHarga" class="modal-harga"></div>
+        <p id="modalDeskripsi" class="modal-deskripsi"></p>
+        <button class="tutup" id="tutupModal">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="chatbot-container">
+    <div id="chatbot-header">🤖 Asisten Kucing</div>
+    <div id="chatbot-body">
+      <div id="chatbot-messages"></div>
+      <input type="text" id="chatbot-input" placeholder="Ketik di sini...">
+      <button id="chatbot-send">Kirim</button>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 <strong>PasarKucing</strong> — Temukan kucing terbaikmu di sini!
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
